@@ -1,6 +1,7 @@
 # CircleCI <> Snyk integration demo 
 Repo to hold templates for CircleCI config.yml files to work with Snyk Orb.
-Eleborate doc here - https://docs.google.com/document/d/1VygmjatKaalQrpqxnHPvaSbipMiZF18TKuB6zxy34tU/edit?usp=sharing
+
+Elaborate doc here - https://docs.google.com/document/d/1VygmjatKaalQrpqxnHPvaSbipMiZF18TKuB6zxy34tU/edit?usp=sharing
 
 Pre-requisite
 	- Setup CircleCI
