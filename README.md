@@ -18,9 +18,8 @@ Elaborate doc here - https://docs.google.com/document/d/1VygmjatKaalQrpqxnHPvaSb
 
 	1. Organization Settings -> Orb Settings ( Yes to allow all Orbs )
 	2. Setup the config.yml
-		a. Snyk Test, Monitor and Delta Configs
+		a. Snyk Test, Monitor, conditional and Delta Configs
 		
-	
 	Set the Environment Variable
 
 	1. Project Settings 
