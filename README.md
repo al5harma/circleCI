@@ -4,20 +4,32 @@ Repo to hold templates for CircleCI config.yml files to work with Snyk Orb.
 Pre-requisite
 	- Setup CircleCI
 	- Setup GitHub
-		○ Fork NodeJS-goof
+		○ Fork NodeJS-goof - https://github.com/snyk-labs/nodejs-goof
 	- Integrate GitHub with CircleCI
 
 Snyk.io
 	- Setup a service account or use your account token for Snyk Authentication in CircleCI
 	
+	![image](https://user-images.githubusercontent.com/104524704/171484363-8f9463d0-cd16-4fc8-bf6e-7be21addbdc1.png)
+
+	
 CircleCI Steps
 
-	1. Organization Settings -> Orb Settings
+	1. Organization Settings -> Orb Settings ( Yes to allow all Orbs )
+	
+	![image](https://user-images.githubusercontent.com/104524704/171484223-96e32b18-9727-4c60-9b11-d5dde2eeb406.png)
+
 	
 	2. Setup the config.yml
 		a. Snyk Test, Monitor and Delta Configs
 	
-Environment Variable -> Snyk Auth Token (Service Account) -> SNYK_TOKEN![image](https://user-images.githubusercontent.com/104524704/171483700-6cbb20a1-81f2-4cb5-bf7e-53bd0d0c0840.png)
+Set the Environment Variable 
+	-> Project Settings 
+	-> Environment Variable
+	-> Snyk Auth Token (Service Account) -> SNYK_TOKEN!
+	
+	![image](https://user-images.githubusercontent.com/104524704/171484068-dff2f828-b06e-4033-bb09-5234d96abaf0.png)
+
 
 
 There are configuration templates posted in the configuration folder. 
