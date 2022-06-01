@@ -1,5 +1,6 @@
 # CircleCI <> Snyk integration demo 
 Repo to hold templates for CircleCI config.yml files to work with Snyk Orb.
+Eleborate doc here - https://docs.google.com/document/d/1VygmjatKaalQrpqxnHPvaSbipMiZF18TKuB6zxy34tU/edit?usp=sharing
 
 Pre-requisite
 	- Setup CircleCI
@@ -9,9 +10,6 @@ Pre-requisite
 
 Snyk.io
 	- Setup a service account or use your account token for Snyk Authentication in CircleCI
-	
-	![image](https://user-images.githubusercontent.com/104524704/171484363-8f9463d0-cd16-4fc8-bf6e-7be21addbdc1.png)
-
 	
 CircleCI Steps
 
@@ -23,7 +21,6 @@ Set the Environment Variable
 	-> Project Settings 
 	-> Environment Variable
 	-> Snyk Auth Token (Service Account) -> SNYK_TOKEN!
-
 
 There are configuration templates posted in the configuration folder.
 
