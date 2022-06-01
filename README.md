@@ -16,10 +16,6 @@ Snyk.io
 CircleCI Steps
 
 	1. Organization Settings -> Orb Settings ( Yes to allow all Orbs )
-	
-	![image](https://user-images.githubusercontent.com/104524704/171484223-96e32b18-9727-4c60-9b11-d5dde2eeb406.png)
-
-	
 	2. Setup the config.yml
 		a. Snyk Test, Monitor and Delta Configs
 	
@@ -27,12 +23,10 @@ Set the Environment Variable
 	-> Project Settings 
 	-> Environment Variable
 	-> Snyk Auth Token (Service Account) -> SNYK_TOKEN!
-	
-	![image](https://user-images.githubusercontent.com/104524704/171484068-dff2f828-b06e-4033-bb09-5234d96abaf0.png)
 
 
+There are configuration templates posted in the configuration folder.
 
-There are configuration templates posted in the configuration folder. 
  - Use them and save the template as a file to .circleci/config.yml in your root repo.
  - You can also copy paste the template directly into your configuration file editor in CircleCI
  - Note the templates only have node dependencies for scanning goof (nodejs-goof) project as found here - https://github.com/snyk-labs/nodejs-goof
