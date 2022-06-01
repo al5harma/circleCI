@@ -21,7 +21,7 @@ Elaborate doc here - https://docs.google.com/document/d/1VygmjatKaalQrpqxnHPvaSb
 		a. Snyk Test, Monitor and Delta Configs
 		
 	
-	**Set the Environment Variable**
+	Set the Environment Variable
 
 	1. Project Settings 
 	2. Environment Variable
