@@ -10,7 +10,7 @@ Elaborate doc here - https://docs.google.com/document/d/1VygmjatKaalQrpqxnHPvaSb
 		Fork NodeJS-goof - https://github.com/snyk-labs/nodejs-goof
 	3. Integrate GitHub with CircleCI
 
-**Snyk.io**
+**Snyk.io Steps**
 
 	1. Setup a service account or use your account token for Snyk Authentication in CircleCI
 	
